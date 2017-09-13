@@ -3,8 +3,8 @@
   Consume a premium gnip stream, with compression.
 */
 $stream_url = "http://twitter.com";
-$user = "kvdohertyqu ";
-$pass = "minnie1031";
+$user = "USER_HANDLE";
+$pass = "USER_PASSWORD";
 // WRITEFUNCTION callback
 // required to return the length of the data passed to it
 
