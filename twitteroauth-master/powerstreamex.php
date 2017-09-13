@@ -8,7 +8,7 @@ $pass = "minnie1031";
 // WRITEFUNCTION callback
 // required to return the length of the data passed to it
 
-print_r("running powerstream");
+print_r("running powerstream...");
 
 function print_out_data($ch, $data) {
   echo $data;
