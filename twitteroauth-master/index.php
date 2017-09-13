@@ -14,9 +14,9 @@ $connection = new TwitterOAuth ($consumer_key, $consumer_secret, $access_token, 
 $content = $connection->get("account/verify_credentials");
 
 //Create Tweets
-$new_status = $connection->post("statuses/update", ["status" => "This tweet sent via Twitter API."]);
+$new_status = $connection->post("statuses/update", ["status" => "This Tweet is brought to you by the Twitter API :)"]);
 
 //Get Tweets
-$statuses = $connection->get("statuses/home_timeline", ["count" => 25, "exclude_replies" => true]);
+$statuses = $connection->get("statuses/home_timeline", ["count" => 5, "exclude_replies" => true]);
 
 print_r($statuses);
