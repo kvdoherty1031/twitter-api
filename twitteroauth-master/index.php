@@ -1,9 +1,9 @@
 <?php
 //keys and tokens
-$consumer_key = '4T7eFElkLYhosV5jL3I4eDZb9';
-$consumer_secret = 'NYEnnzL2bwijUOaT5eIIefirZAU3jA6uCPJKnepcHAzmAMmII3';
-$access_token = '569220369-YoFpqLvwYQLj5NeG2scE050zNCoKuTUJSskpgEYP';
-$access_token_secret = 'iuhCxeBGqISI2b6nH4sKk96LA4DeM7lQCx8iVl2NWAs7Z';
+$consumer_key = 'KEY';
+$consumer_secret = 'SECRET';
+$access_token = 'TOKEN';
+$access_token_secret = 'TOKEN_SECRET';
 
 //Include library
 require "autoload.php";
