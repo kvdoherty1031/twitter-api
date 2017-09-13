@@ -17,6 +17,6 @@ $content = $connection->get("account/verify_credentials");
 $new_status = $connection->post("statuses/update", ["status" => "This Tweet is brought to you by the Twitter API :)"]);
 
 //Get Tweets
-$statuses = $connection->get("statuses/home_timeline", ["count" => 5, "exclude_replies" => true]);
+$statuses = $connection->get("statuses/home_timeline", ["count" => 100, "exclude_replies" => true]);
 
 print_r($statuses);

@@ -2,9 +2,9 @@
 /*
   Consume a premium gnip stream, with compression.
 */
-$stream_url = "http://twitter.com";
-$user = "USER_HANDLE";
-$pass = "USER_PASSWORD";
+$stream_url = "https://historical.gnip.com:443/accounts/gnip-learning/publishers/twitter/historical/track/jobs/4sxda5sfz3/results.json";
+$user = "kvdohertyqu";
+$pass = "minnie1031";
 // WRITEFUNCTION callback
 // required to return the length of the data passed to it
 
